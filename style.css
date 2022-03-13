@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+span{
+    display: inline-block;
+margin: 8px;
+box-shadow: 1px 2px 2px;
+}
+
+body{
+    background-color: white;
+padding: 30px;
+max-width: 350px;
+margin: auto;
+}
+
+.newspaper{
+background-color: teal;
+font-family: 'Comforter Brush', cursive;
+font-weight: bold;
+}
+
+.magazine1{
+background-color: teal;
+color: white;
+font-family: verdana;
+font-weight: 900;
+text-transform: uppercase;
+}
+
+.magazine2{
+background-image: url('https://cdn.pixabay.com/photo/2019/03/25/22/35/blue-4081494_960_720.png');
+color: fuchsia;
+font-family: Verdana;
+font-weight: 900;
+}
+
+.medium{
+font-size: 20px;
+padding: 8px;
+}
+
+.big{
+font-size: 30px;
+padding: 10px;
+}
+
+.reallybig{
+font-size: 40px;
+padding: 15px;
+}
+
+.rotateleft{
+transform: rotate(-5deg);
+}
+
+.rotateright{
+     transform: rotate(5deg);
+}
+
+.skewleft{
+    transform: skewX(10deg);
+}
+
+.skewright{
+    transform: skewX(-10deg);
+}
+
+.comic{
+background-color: yellow;
+color: red;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
